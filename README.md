@@ -2,25 +2,29 @@
 This repository contains simple Java programs for common beginner-level coding problems. Each program demonstrates fundamental concepts in Java such as strings, loops, conditionals, recursion, arrays, and functions.
 
 📂 Topics Covered
-#	Topic	Description
-1	Reverse String	Reverses the characters in a string
-2	ASCII Value	Displays ASCII value of each character
-3	Palindrome Check	Checks if a string is a palindrome
-4	Fibonacci Series	Prints Fibonacci numbers up to N terms
-5	Vowel & Consonant Counter	Counts vowels and consonants in a string
-6	Prime Number Check	Verifies if a number is prime
-7	Factorial (Loop)	Calculates factorial using iteration
-8	Factorial (Recursion)	Calculates factorial using recursion
-9	Swapping Two Numbers	Swaps two integers
-10	Odd or Even	Checks if a number is odd or even
-11	Find Min & Max in Array	Finds smallest and largest element
-12	Reverse an Array	Prints array elements in reverse order
-
+```bash
+| #️⃣ | 🧠 Topic                        | 📄 Description                                      |
+|-----|-------------------------------|-----------------------------------------------------|
+| 1️⃣ | Reverse String                | Reverses a string using `StringBuilder`            |
+| 2️⃣ | ASCII Value                   | Prints ASCII values of each character in a string  |
+| 3️⃣ | Palindrome Check             | Checks if a string reads the same backward         |
+| 4️⃣ | Fibonacci Series             | Prints first N numbers in the Fibonacci sequence   |
+| 5️⃣ | Vowel & Consonant Count      | Counts vowels and consonants in a given string     |
+| 6️⃣ | Prime Number Check           | Determines if a number is prime                    |
+| 7️⃣ | Factorial (Loop)             | Computes factorial using iteration                 |
+| 8️⃣ | Factorial (Recursion)        | Computes factorial using recursion                 |
+| 9️⃣ | Swap Two Numbers             | Swaps two integers using a temporary variable      |
+| 🔟 | Odd or Even                  | Checks if a number is even or odd                 |
+| 1️⃣1️⃣ | Min & Max in Array         | Finds the smallest and largest values in an array  |
+| 1️⃣2️⃣ | Reverse Array              | Reverses and prints elements of an array           |
+```
+---
 📁 File Structure
 Each topic is implemented in its own file:
 
-mathematica
+mathematical
 Copy code
+```bash
 /JavaBasicPrograms
 │
 ├── ReverseString.java
@@ -35,6 +39,7 @@ Copy code
 ├── OddEven.java
 ├── MinMaxArray.java
 └── ReverseArray.java
+```
 🧰 Requirements
 Java JDK 8 or above
 
@@ -42,10 +47,11 @@ Any Java IDE (e.g., IntelliJ, Eclipse, VS Code) or command-line setup
 
 ▶️ How to Run
 Using Command Line:
-bash
 Copy code
+```bash
 javac ReverseString.java
 java ReverseString
+```
 Using an IDE:
 Open the project folder.
 
